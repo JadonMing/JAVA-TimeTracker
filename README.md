@@ -1,6 +1,6 @@
 # JAVA-TimeTracker
-// Program Brief Introduction
-/**********
+Program Brief Introduction
+
  * This project contains 10 classes in total essentially:
  *
  * ->The 'TimeTracker' class includes main method to run the program
@@ -16,5 +16,4 @@
  *  several other classes to achieve same small part of aim, so it is superclass
  *
  * More details can be found in each class's Class specification
- * And hopefully the reader would like this kind of comment style :)
- *********/
+
