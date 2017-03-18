@@ -1,5 +1,4 @@
-// 6515826 zy15826 Zequn YU
-package unnc.cs.zy15826;
+package com.jadonming.TimeTracker;
 
 import java.io.Serializable;
 
@@ -12,6 +11,7 @@ import java.io.Serializable;
  *  when the task is not terminated) and getting information of the task
  **********/
 
+@SuppressWarnings("serial")
 public class Task implements Serializable {
     private long beginTime;
     private long endTime;

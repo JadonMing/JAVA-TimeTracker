@@ -1,9 +1,9 @@
-// 6515826 zy15826 Zequn YU
-package unnc.cs.zy15826;
+package com.jadonming.TimeTracker;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.Map.Entry;
 
 // Class specification
 /**********
@@ -151,10 +151,11 @@ public class WeekSummary extends SharedMethod {
         }
         System.out.println();
 
-        Iterator Itor = hm.entrySet().iterator();
+        Iterator<Entry<String, long[]>> Itor = hm.entrySet().iterator();
         while (Itor.hasNext()) {
 
-            Map.Entry pair = (Map.Entry)Itor.next();
+            @SuppressWarnings("rawtypes")
+			Map.Entry pair = (Map.Entry)Itor.next();
             String temp = (String) pair.getKey();
             System.out.printf("%-7s", temp+"\t");
 

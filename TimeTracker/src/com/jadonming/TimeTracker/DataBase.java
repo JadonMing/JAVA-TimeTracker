@@ -1,5 +1,4 @@
-// 6515826 zy15826 Zequn YU
-package unnc.cs.zy15826;
+package com.jadonming.TimeTracker;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -16,6 +15,7 @@ import java.util.ArrayList;
  * Notice that if Task points to null, it won't be recorded
  **********/
 
+@SuppressWarnings("serial")
 public class DataBase implements Serializable{
 
     private Task CurrentTask;

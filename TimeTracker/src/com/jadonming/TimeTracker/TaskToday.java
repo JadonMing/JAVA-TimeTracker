@@ -1,5 +1,4 @@
-// 6515826 zy15826 Zequn YU
-package unnc.cs.zy15826;
+package com.jadonming.TimeTracker;
 
 import java.util.ArrayList;
 
